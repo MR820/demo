@@ -1,0 +1,409 @@
+consumer2021/08/16 16:48:20 client.go:141: Initializing new client
+consumer2021/08/16 16:48:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:48:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:48:20 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.14:1023
+consumer2021/08/16 16:48:20 broker.go:209: Connected to broker at 10.172.48.14:1023 (unregistered)
+consumer2021/08/16 16:48:20 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 16:48:20 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 16:48:20 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 16:48:20 client.go:185: Successfully initialized new client
+consumer2021/08/16 16:48:20 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 16:48:20 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 16:48:20 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 16:48:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:48:20 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 16:48:21 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 16:48:21 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 16:48:21 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:48:21 broker.go:207: Connected to broker at 10.172.48.14:1023 (registered as #3)
+consumer2021/08/16 16:48:21 consumer.go:819: consumer/broker/1 added subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 16:48:21 consumer.go:819: consumer/broker/3 added subscription to HR_ORG_TOPIC/1
+consumer2021/08/16 16:52:00 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 16:52:00 consumer.go:825: consumer/broker/3 closed dead subscription to HR_ORG_TOPIC/1
+consumer2021/08/16 16:52:00 consumer.go:825: consumer/broker/1 closed dead subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 16:52:00 client.go:248: Closing Client
+consumer2021/08/16 16:52:01 client.go:141: Initializing new client
+consumer2021/08/16 16:52:01 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:52:01 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:52:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 16:52:01 broker.go:209: Connected to broker at 10.172.48.18:1023 (unregistered)
+consumer2021/08/16 16:52:01 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 16:52:01 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 16:52:01 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 16:52:01 client.go:185: Successfully initialized new client
+consumer2021/08/16 16:52:01 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 16:52:01 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 16:52:01 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 16:52:01 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:52:01 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 16:52:04 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 16:52:04 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 16:52:04 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 16:52:04 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 16:52:04 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 16:52:04 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 17:02:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 17:12:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 17:22:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 17:32:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 17:42:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 17:52:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 18:02:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 18:12:01 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 18:42:55 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 18:42:55 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 18:42:55 consumer.go:802: consumer/broker/1 disconnecting due to error processing FetchRequest: read tcp 10.20.133.145:64034->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 18:42:55 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 18:42:55 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 18:42:55 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 18:42:55 consumer.go:330: kafka: error while consuming HR_ORG_TOPIC/2: read tcp 10.20.133.145:64034->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 18:43:03 consumer.go:802: consumer/broker/2 disconnecting due to error processing FetchRequest: read tcp 10.20.133.145:64041->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 18:43:03 broker.go:248: Closed connection to broker 10.172.48.17:1023
+consumer2021/08/16 18:43:03 consumer.go:330: kafka: error while consuming HR_EMP_TOPIC/1: read tcp 10.20.133.145:64041->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 18:43:03 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 18:43:03 client.go:927: client/metadata got error from broker -1 while fetching metadata: read tcp 10.20.133.145:64032->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 18:43:03 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 18:43:03 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 18:43:03 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 18:43:03 broker.go:209: Connected to broker at 10.172.48.14:1023 (unregistered)
+consumer2021/08/16 18:43:03 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 18:43:03 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 18:43:05 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 18:43:05 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 18:43:05 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 18:43:06 consumer.go:819: consumer/broker/1 added subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:00:24 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 19:00:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:00:24 consumer.go:802: consumer/broker/1 disconnecting due to error processing FetchRequest: read tcp 10.20.133.145:50412->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 19:00:24 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:00:24 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 19:00:24 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:00:24 consumer.go:330: kafka: error while consuming HR_ORG_TOPIC/2: read tcp 10.20.133.145:50412->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 19:00:24 consumer.go:330: kafka: error while consuming HR_EMP_TOPIC/0: read tcp 10.20.133.145:50412->10.172.48.18:1023: read: connection reset by peer
+consumer2021/08/16 19:00:24 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:00:24 client.go:927: client/metadata got error from broker -1 while fetching metadata: read tcp 10.20.133.145:50411->10.172.48.14:1023: read: connection reset by peer
+consumer2021/08/16 19:00:24 broker.go:248: Closed connection to broker 10.172.48.14:1023
+consumer2021/08/16 19:00:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:00:24 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:00:24 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 19:00:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:00:24 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:00:27 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:00:27 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:00:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:00:27 client.go:881: client/metadata fetching metadata for [HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:00:27 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:00:27 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:00:27 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:16:42 broker.go:248: Closed connection to broker 10.172.48.18:1023
+consumer2021/08/16 19:16:42 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:16:42 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:16:42 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:16:53 consumer.go:802: consumer/broker/2 disconnecting due to error processing FetchRequest: read tcp 10.20.133.145:50426->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 19:16:53 broker.go:248: Closed connection to broker 10.172.48.17:1023
+consumer2021/08/16 19:16:53 consumer.go:330: kafka: error while consuming HR_EMP_TOPIC/1: read tcp 10.20.133.145:50426->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 19:16:53 consumer.go:330: kafka: error while consuming HR_ORG_TOPIC/0: read tcp 10.20.133.145:50426->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 19:16:53 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:16:53 client.go:927: client/metadata got error from broker -1 while fetching metadata: read tcp 10.20.133.145:50424->10.172.48.17:1023: read: connection reset by peer
+consumer2021/08/16 19:16:53 broker.go:248: Closed connection to broker 10.172.48.17:1023
+consumer2021/08/16 19:16:53 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:16:53 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:16:53 broker.go:207: Connected to broker at 10.172.48.14:1023 (registered as #3)
+consumer2021/08/16 19:16:55 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:16:55 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:16:55 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:16:55 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:16:55 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:16:55 consumer.go:819: consumer/broker/1 added subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:23:56 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 19:33:56 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 19:39:42 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:39:42 consumer.go:825: consumer/broker/1 closed dead subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:39:42 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:39:42 client.go:248: Closing Client
+consumer2021/08/16 19:40:17 client.go:141: Initializing new client
+consumer2021/08/16 19:40:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:40:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:40:17 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 19:40:17 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 19:40:17 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:40:17 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:40:17 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:40:17 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:40:17 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:40:17 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:40:17 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:40:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:40:17 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:40:19 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:40:19 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:40:19 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:40:19 client.go:881: client/metadata fetching metadata for [HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:40:19 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:40:19 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:40:20 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:40:58 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:40:58 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:40:58 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:40:58 client.go:248: Closing Client
+consumer2021/08/16 19:44:27 client.go:141: Initializing new client
+consumer2021/08/16 19:44:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:27 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.14:1023
+consumer2021/08/16 19:44:27 broker.go:209: Connected to broker at 10.172.48.14:1023 (unregistered)
+consumer2021/08/16 19:44:27 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:44:27 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:44:27 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:44:27 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:44:27 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:44:27 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:44:27 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:27 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:44:29 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:44:29 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:29 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:29 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:44:29 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:44:29 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:44:41 client.go:141: Initializing new client
+consumer2021/08/16 19:44:41 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:41 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:41 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 19:44:41 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 19:44:41 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:44:41 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:44:41 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:44:41 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:44:41 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:44:41 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:44:41 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:41 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:41 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:44:44 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:44:44 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:44:44 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:44:44 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:44:45 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:44:45 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:44:45 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:45 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:45 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:45 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:44:45 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:44:45 consumer.go:819: consumer/broker/1 added subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:44:45 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:44:47 client.go:141: Initializing new client
+consumer2021/08/16 19:44:47 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:47 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:47 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 19:44:47 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 19:44:47 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:44:47 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:44:47 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:44:47 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:44:47 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:44:47 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:44:47 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:47 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:44:47 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:44:48 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:44:48 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:44:48 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:44:48 consumer.go:825: consumer/broker/1 closed dead subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:44:48 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:44:48 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:44:48 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:44:48 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:44:48 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:44:48 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:44:48 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:48 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:48 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:44:48 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:44:48 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:44:48 consumer.go:819: consumer/broker/1 added subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:44:58 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:44:58 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:44:58 client.go:248: Closing Client
+consumer2021/08/16 19:45:00 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:00 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:00 consumer.go:825: consumer/broker/1 closed dead subscription to HR_EMP_TOPIC/0
+consumer2021/08/16 19:45:00 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:00 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:00 client.go:248: Closing Client
+consumer2021/08/16 19:45:00 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:00 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:00 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:00 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:03 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:03 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:03 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:03 client.go:248: Closing Client
+consumer2021/08/16 19:45:17 client.go:141: Initializing new client
+consumer2021/08/16 19:45:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:17 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.18:1023
+consumer2021/08/16 19:45:17 broker.go:209: Connected to broker at 10.172.48.18:1023 (unregistered)
+consumer2021/08/16 19:45:17 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:45:17 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:45:17 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:45:17 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:45:17 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:45:17 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 19:45:17 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:17 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:17 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:45:19 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 19:45:19 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:19 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:19 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:45:19 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:19 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:24 client.go:141: Initializing new client
+consumer2021/08/16 19:45:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:24 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:24 broker.go:209: Connected to broker at 10.172.48.14:1023 (unregistered)
+consumer2021/08/16 19:45:24 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:45:24 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:45:24 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:45:24 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:45:24 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:24 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:24 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:24 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:24 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:45:25 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:25 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:25 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:25 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:45:25 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 19:45:25 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:25 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:25 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:25 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:25 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:27 client.go:141: Initializing new client
+consumer2021/08/16 19:45:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:27 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:27 broker.go:209: Connected to broker at 10.172.48.14:1023 (unregistered)
+consumer2021/08/16 19:45:27 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:45:27 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:45:27 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:45:27 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:45:27 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:27 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:27 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:27 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:27 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:45:28 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:28 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:45:28 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:28 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:45:28 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:28 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:45:28 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:28 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:45:28 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:28 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:28 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:28 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:28 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:28 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:45:28 broker.go:207: Connected to broker at 10.172.48.14:1023 (registered as #3)
+consumer2021/08/16 19:45:28 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:45:28 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:45:28 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:45:28 consumer.go:819: consumer/broker/3 added subscription to HR_EMP_TOPIC/2
+consumer2021/08/16 19:45:28 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:45:59 client.go:141: Initializing new client
+consumer2021/08/16 19:45:59 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:59 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:59 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 19:45:59 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 19:45:59 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 19:45:59 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 19:45:59 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 19:45:59 client.go:185: Successfully initialized new client
+consumer2021/08/16 19:45:59 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 19:45:59 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:45:59 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:45:59 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:45:59 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 19:46:01 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:01 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:46:01 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:02 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:46:02 consumer.go:825: consumer/broker/3 closed dead subscription to HR_EMP_TOPIC/2
+consumer2021/08/16 19:46:02 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:46:02 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:02 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:46:02 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:02 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:46:02 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:46:02 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 19:46:02 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:46:02 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:46:02 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 19:46:02 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:46:02 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 19:46:02 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:02 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:46:45 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:45 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:46:45 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:45 client.go:248: Closing Client
+consumer2021/08/16 19:46:47 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:47 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 19:46:47 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.14:1023
+consumer2021/08/16 19:46:47 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:46:47 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:47 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:47 client.go:248: Closing Client
+consumer2021/08/16 19:46:47 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.14:1023
+consumer2021/08/16 19:46:47 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 19:46:47 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:46:47 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:46:47 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:47 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:46:48 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:48 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:48 client.go:248: Closing Client
+consumer2021/08/16 19:46:50 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:46:50 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:46:50 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.18:1023
+consumer2021/08/16 19:46:51 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.18:1023
+consumer2021/08/16 19:46:51 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 19:46:51 consumer.go:819: consumer/broker/1 added subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:46:51 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:51:28 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 19:51:29 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 19:51:29 consumer.go:825: consumer/broker/1 closed dead subscription to HR_ORG_TOPIC/2
+consumer2021/08/16 19:51:29 client.go:248: Closing Client
+consumer2021/08/16 20:01:31 client.go:141: Initializing new client
+consumer2021/08/16 20:01:31 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 20:01:31 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 20:01:31 client.go:884: client/metadata fetching metadata for all topics from broker 10.172.48.17:1023
+consumer2021/08/16 20:01:31 broker.go:209: Connected to broker at 10.172.48.17:1023 (unregistered)
+consumer2021/08/16 20:01:31 client.go:615: client/brokers registered new broker #2 at 10.172.48.17:1023
+consumer2021/08/16 20:01:31 client.go:615: client/brokers registered new broker #3 at 10.172.48.14:1023
+consumer2021/08/16 20:01:31 client.go:615: client/brokers registered new broker #1 at 10.172.48.18:1023
+consumer2021/08/16 20:01:31 client.go:185: Successfully initialized new client
+consumer2021/08/16 20:01:31 client.go:881: client/metadata fetching metadata for [HR_EMP_TOPIC HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 20:01:31 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 20:01:31 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 20:01:31 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 20:01:31 broker.go:207: Connected to broker at 10.172.48.18:1023 (registered as #1)
+consumer2021/08/16 20:01:34 client.go:1048: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync from 10.172.48.17:1023
+consumer2021/08/16 20:01:34 client.go:1070: client/coordinator coordinator for consumergroup G02-yundabms-sync is #1 (10.172.48.18:1023)
+consumer2021/08/16 20:01:34 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/08/16 20:01:34 client.go:881: client/metadata fetching metadata for [HR_ORG_TOPIC] from broker 10.172.48.17:1023
+consumer2021/08/16 20:01:34 broker.go:207: Connected to broker at 10.172.48.17:1023 (registered as #2)
+consumer2021/08/16 20:01:34 consumer.go:819: consumer/broker/2 added subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 20:01:34 consumer.go:819: consumer/broker/2 added subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 20:02:16 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC HR_ORG_TOPIC]
+consumer2021/08/16 20:02:17 consumer.go:825: consumer/broker/2 closed dead subscription to HR_EMP_TOPIC/1
+consumer2021/08/16 20:02:17 consumer.go:825: consumer/broker/2 closed dead subscription to HR_ORG_TOPIC/0
+consumer2021/08/16 20:02:17 client.go:248: Closing Client

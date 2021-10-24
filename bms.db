@@ -1,0 +1,26 @@
+[root@a00-other-yundabms-sync-deploy-58d94dc4dd-9r9wc /]# cat kafka.log
+consumer2021/04/29 14:30:20 client.go:141: Initializing new client
+consumer2021/04/29 14:30:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/04/29 14:30:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/04/29 14:30:20 client.go:885: client/metadata fetching metadata for all topics from broker 10.131.53.38:9032
+consumer2021/04/29 14:30:20 broker.go:209: Connected to broker at 10.131.53.38:9032 (unregistered)
+consumer2021/04/29 14:30:20 client.go:616: client/brokers registered new broker #2 at 10.131.53.39:9032
+consumer2021/04/29 14:30:20 client.go:616: client/brokers registered new broker #3 at 10.131.53.40:9032
+consumer2021/04/29 14:30:20 client.go:616: client/brokers registered new broker #1 at 10.131.53.38:9032
+consumer2021/04/29 14:30:20 client.go:185: Successfully initialized new client
+consumer2021/04/29 14:30:20 client.go:882: client/metadata fetching metadata for [HR_EMP_TOPIC] from broker 10.131.53.38:9032
+consumer2021/04/29 14:30:20 client.go:1049: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync-emp from 10.131.53.38:9032
+consumer2021/04/29 14:30:20 client.go:1072: client/coordinator coordinator for consumergroup G02-yundabms-sync-emp is #1 (10.131.53.38:9032)
+consumer2021/04/29 14:30:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/04/29 14:30:20 broker.go:207: Connected to broker at 10.131.53.38:9032 (registered as #1)
+consumer2021/04/29 14:30:20 client.go:1049: client/coordinator requesting coordinator for consumergroup G02-yundabms-sync-emp from 10.131.53.38:9032
+consumer2021/04/29 14:30:20 client.go:1072: client/coordinator coordinator for consumergroup G02-yundabms-sync-emp is #1 (10.131.53.38:9032)
+consumer2021/04/29 14:30:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/04/29 14:30:20 config.go:544: ClientID is the default of 'sarama', you should consider setting it to something application-specific.
+consumer2021/04/29 14:30:20 broker.go:207: Connected to broker at 10.131.53.40:9032 (registered as #3)
+consumer2021/04/29 14:30:20 broker.go:207: Connected to broker at 10.131.53.39:9032 (registered as #2)
+consumer2021/04/29 14:30:20 consumer.go:820: consumer/broker/1 added subscription to HR_EMP_TOPIC/1
+consumer2021/04/29 14:30:20 consumer.go:820: consumer/broker/3 added subscription to HR_EMP_TOPIC/0
+consumer2021/04/29 14:30:20 consumer.go:820: consumer/broker/2 added subscription to HR_EMP_TOPIC/2
+consumer2021/04/29 14:30:20 consumer.go:826: consumer/broker/3 closed dead subscription to HR_EMP_TOPIC/0
+consumer2021/04/29 14:30:20 consumer_group.go:466: loop check partition number coroutine will exit, topics [HR_EMP_TOPIC]

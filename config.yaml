@@ -1,0 +1,11 @@
+database:
+  username : dev
+  password : 6MLKx69iLcGz3Ltpbcoq
+  network  : tcp
+  server   : 10.172.26.20
+  port     : 3401
+  database : yundabms
+kafka:
+  brokers : ["10.172.48.17:1023","10.172.48.18:1023","10.172.48.14:1023"]
+  topics  : ["HR_EMP_TOPIC","HR_ORG_TOPIC"]
+  group   : G02-yundabms-sync

@@ -1,0 +1,11 @@
+{
+  "database": {
+    "name": "test",
+    "user": "root",
+    "password": "123456",
+    "type": "mysql",
+    "host": "10.19.106.217",
+    "port": "3306",
+    "table_prefix": ""
+  }
+}
